@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "py-music-omicverse"
+version = "0.1.0"
+description = "Reference-validated py-MuSiC algorithm subset"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.23", "scipy>=1.10", "pandas>=1.5"]
+[project.optional-dependencies]
+test = ["pytest>=7"]
+[tool.setuptools.packages.find]
+include = ["pymusic_deconv*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
