@@ -1,0 +1,24 @@
+{
+  "upstream": "MuSiC",
+  "commit": "f21fe67f5670d5e9fca0ad7550abaae3423eb59c",
+  "seed": 42,
+  "scope": [
+    "music_basis",
+    "music_prop"
+  ],
+  "outputs": {
+    "deterministic": {
+      "atol": 1e-08,
+      "rtol": 1e-08
+    },
+    "projection": {
+      "atol": 1e-08
+    },
+    "pvalues": {
+      "spearman_min": 0.99,
+      "top20_jaccard_min": 0.9,
+      "atol": 1e-06
+    }
+  },
+  "status": "preregistered; no candidate tested"
+}
