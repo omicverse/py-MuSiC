@@ -39,3 +39,7 @@ All other primary fixtures are synthetic and do not establish biological accurac
 ## Citation and license
 
 Upstream [MuSiC](https://github.com/xuranw/MuSiC) at `f21fe67f5670d5e9fca0ad7550abaae3423eb59c`; see ATTRIBUTION.md for upstream authors and package citation context, and LICENSE for terms.
+
+## Distribution preparation
+
+The intended PyPI distribution is `py-music-omicverse`; the import remains `pymusic_deconv`. See [release preparation](RELEASE.md) for installed-wheel validation and the manual Trusted Publishing procedure. This preparation does not mean a PyPI release is available.
