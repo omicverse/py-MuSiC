@@ -1,0 +1,4 @@
+include *.md *.yaml LICENSE
+recursive-include tests *.py *.R
+recursive-include data *.csv *.txt *.json *.npz
+recursive-include scripts *.py

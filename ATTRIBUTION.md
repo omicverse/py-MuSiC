@@ -1,0 +1,31 @@
+# Attribution
+
+Upstream MuSiC 1.0.0, commit f21fe67f5670d5e9fca0ad7550abaae3423eb59c.
+Algorithms reconstructed from the upstream source under the accompanying LICENSE.
+Upstream author declarations:
+
+```
+Package: MuSiC
+Type: Package
+Title: Multi-subject single cell deconvolution
+Version: 1.0.0
+Authors@R: c(person("Xuran", "Wang", role = c('aut', 'cre'), email = 'xuran.wang@mssm.edu'),
+             person("Jiaxin", "Fan", role = c('aut'), email = 'Jiaxin.Fan@fda.hhs.gov'))
+Maintainer: Xuran Wang <xuran.wang@mssm.edu>
+Description: Companion package to: A bulk tissue deconvolution method with multi-subject single cell expression reference. This package provide functions to estimate bulk tissue cell type proportions with multi-subject single cell expression as reference.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.3.2), nnls (>= 1.4), ggplot2 (>= 2.2.1), TOAST (>= 1.10.1)
+Imports:
+        Biobase,
+        SingleCellExperiment,
+        Matrix,
+        MCMCpack
+URL: https://github.com/xuranw/MuSiC
+BugReports: https://github.com/xuranw/MuSiC/issues
+VignetteBuilder: knitr
+RoxygenNote: 7.2.1
+Remotes:
+
+```

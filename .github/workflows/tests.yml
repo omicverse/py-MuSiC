@@ -1,0 +1,25 @@
+name: Tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install build twine
+      - run: python -m build
+      - run: python -m twine check --strict dist/*
+      - run: python -m pip install dist/*.whl pytest
+      - run: python -m pip check
+      - run: python -I scripts/test_installed.py --sdist dist/*.tar.gz --module pymusic_deconv --distribution py-music-omicverse
+      - uses: actions/upload-artifact@v4
+        with:
+          name: distributions-py${{ matrix.python }}
+          path: dist/*

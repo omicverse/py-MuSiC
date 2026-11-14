@@ -1,0 +1,239 @@
+{
+  "schema": "omicverse-port/v1",
+  "package": "py-MuSiC",
+  "pypi": null,
+  "import_name": "pymusic_deconv",
+  "language": "python",
+  "upstream": {
+    "name": "MuSiC",
+    "version": "1.0.0",
+    "commit": "f21fe67f5670d5e9fca0ad7550abaae3423eb59c"
+  },
+  "parity": {
+    "status": "partial",
+    "fixture": "Pinned synthetic fixtures; muscat also includes a public Kang subset",
+    "test": "tests/"
+  },
+  "functions": [
+    {
+      "r": "Abs_diff_multi",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Anova_info",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Boxplot_Est",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Eval_multi",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Jitter_Est",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Prop_comp_multi",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Prop_convert",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Prop_heat_Est",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Relative_gene_boxplot",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Scatter_multi",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Twocelltype.Generator",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "Weight_cal",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "bulk_construct",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "get_upper_tri",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music.basic",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music.basic.ct",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music.iter",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music.iter.ct",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music2_prop",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music2_prop_t_statistics",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music2_prop_toast",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music_Design.matrix",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music_M.theta",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music_S",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music_Sigma",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music_Sigma.ct",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music_Theta",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "music_basis",
+      "py": "pymusic_deconv.music_basis",
+      "status": "partial",
+      "note": "Matrix/default-path subset; see README"
+    },
+    {
+      "r": "music_prop",
+      "py": "pymusic_deconv.music_prop",
+      "status": "partial",
+      "note": "Matrix/default-path subset; see README"
+    },
+    {
+      "r": "music_prop.cluster",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "my.log",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "my.rowMeans",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "my.sqrt",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "relative.ab",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    },
+    {
+      "r": "weight.cal.ct",
+      "py": null,
+      "status": "skipped",
+      "note": "Outside this initial algorithm subset"
+    }
+  ],
+  "omicverse": {
+    "module": null,
+    "since": null
+  },
+  "artifacts": {
+    "audit": "AUDIT.md",
+    "report": "RECONSTRUCTION_REPORT.md",
+    "compare_notebook": "examples/compare_R_vs_Python.ipynb",
+    "function_notebook": "examples/function_by_function_R_parity.ipynb"
+  }
+}
