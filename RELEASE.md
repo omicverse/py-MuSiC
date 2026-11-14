@@ -1,7 +1,9 @@
-# Release preparation
+# Release workflow
 
-Distribution: `py-music-omicverse`. Python import: `pymusic_deconv`. Candidate: `0.1.0`.
-These names intentionally differ. Preparation does not establish a PyPI release.
+Distribution: `py-music-omicverse`. Python import: `pymusic_deconv`. Released version: `0.1.0`.
+These names intentionally differ. Version 0.1.0 was published on 2026-11-14 and verified by installing the actual PyPI package in a fresh environment: 4 reference tests passed with no skips.
+
+The first-publication procedure below records the bootstrap setup. For a later release, first update and validate a new version; do not dispatch 0.1.0 again. PyPI release files are not overwritten.
 
 ## Validation
 
